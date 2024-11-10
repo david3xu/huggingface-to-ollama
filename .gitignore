@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Project specific: keep the models directory but ignore its contents
+models/*
+!models/.gitkeep
+
+# Environment
+.env
+
+llama.cpp/

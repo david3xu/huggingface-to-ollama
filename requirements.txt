@@ -1,0 +1,5 @@
+transformers
+torch
+huggingface-hub>=0.17.0
+llama-cpp-python
+sentencepiece

@@ -1,0 +1,9 @@
+FROM ./models/cira-7b-dpo-lora-merge-v0.1.gguf
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9
+PARAMETER stop "<|endoftext|>"
+
+SYSTEM "You are a helpful AI assistant."
+
+TEMPLATE "{{.System}}{{.Prompt}}"
