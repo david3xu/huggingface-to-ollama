@@ -45,7 +45,7 @@ def download_and_convert_model(model_name, output_dir):
         f"{llama_cpp_dir}/convert_hf_to_gguf.py",
         local_dir,
         "--outfile", gguf_path,
-        "--outtype", "q4_k_m"
+        "--outtype", "q8_0"
     ]
     
     try:
